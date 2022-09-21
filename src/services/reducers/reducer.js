@@ -22,7 +22,7 @@ export const currentUser = (state = {}, action) => {
     case LOGOUT:
       return {
         ...state,
-        user: {},
+        user:"",
         loggedIn: false,
       };
     default:
